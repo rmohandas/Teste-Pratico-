@@ -45,5 +45,5 @@ Os campos abaixo só podem ser aceitos no formato:
 
 ## SUBMETA SEU PROJETO, MESMO QUE VOCÊ NÃO O TERMINE. NESTE CASO, NOS EXPLIQUE QUAIS FORAM AS SUAS DIFICULDADES. 
 
-Implantação do "Event e Notifications" por tem muito tempo que mexi com o Laravel estou lendo algumas documentações para poder implantar, vou ultilizar o teste fornecido como exemplo.
+Implantação do "Event e Notifications" estou lendo algumas documentações para poder implantar, vou ultilizar o teste fornecido como exemplo.
 
