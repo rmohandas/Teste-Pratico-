@@ -15,14 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+################## Rota de cadastro de veiculos ##########################################################
 Route::get('/veiculos/novo', 'VeiculosController@create')->middleware('auth');
 Route::post('/veiculos/novo', 'VeiculosController@store')->name('registrar_veiculo')->middleware('auth');
 
-Route::get('veiculos/ver/{id}', 'VeiculosController@show')->middleware('auth');
-
+################## Rota de edição de veiculos ##########################################################
 Route::get('/veiculos/editar/{id}', 'VeiculosController@edit')->middleware('auth');
 Route::post('/veiculos/editar/{id}', 'VeiculosController@update')->name('alterar_veiculo')->middleware('auth');
 
+################## Rota de exclusão de veiculos ##########################################################
 Route::get('/veiculos/excluir/{id}', 'VeiculosController@delete')->middleware('auth');
 Route::get('/veiculos/excluir/{id}', 'VeiculosController@destroy')->name('excluir_veiculo')->middleware('auth');
 
